@@ -1,0 +1,120 @@
+/*
+ * Basic beginning css such as body background, color, margin, etc...
+ *
+ * @author Vee W.
+ */
+
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+}
+@media (min-width: 1024px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+button,
+input[type="button"],
+input[type="submit"] {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+button:focus,
+button:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
+input[type="submit"]:focus, 
+input[type="submit"]:hover {
+    background-color: #f7f7f7;
+    outline: none;
+}
+
+
+input[type="checkbox"]:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="radio"]:focus,
+input[type="range"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    font-size: 31px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 19px;
+}
+h6 {
+    color: #777;
+    font-size: 16px;
+}
+
+
+p {
+    font-size: 14px;
+}
+
+
+pre {
+    background-color: #333;
+    color: #eee;
+    line-height: 1.3rem;
+    padding: 5px;
+}
+
+
+table thead td,
+table thead th,
+table tfoot td,
+table tfoot th {
+    font-weight: 600;
+}

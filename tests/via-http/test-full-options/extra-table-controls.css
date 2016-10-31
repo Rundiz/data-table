@@ -1,0 +1,45 @@
+/**
+ * Extra table controls css
+ *
+ * @author Vee W.
+ */
+
+
+.search-box {
+    margin-bottom: 10px;
+}
+@media (min-width: 800px) {
+    .search-box {
+        float: right;
+    }
+    .search-box::after {
+        clear: both;
+        content: '';
+        display: table;
+    }
+}
+.search-box button,
+.search-box input[type="text"],
+.search-box input[type="search"] {
+    border: 1px solid #ddd;
+    height: 30px;
+}
+@media (min-width: 800px) {
+    .search-box button,
+    .search-box input[type="text"],
+    .search-box input[type="search"] {
+        height: 24px;
+    }
+}
+.search-box input[type="text"],
+.search-box input[type="search"] {
+    margin-bottom: 5px;
+    width: 100%;
+}
+@media (min-width: 800px) {
+    .search-box input[type="text"],
+    .search-box input[type="search"] {
+        margin-bottom: 0;
+        width: auto;
+    }
+}
