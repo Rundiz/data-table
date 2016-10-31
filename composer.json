@@ -2,7 +2,7 @@
     "name": "rundiz/data-table",
     "type": "library",
     "description": "The data table class for listing data in the table.",
-    "keywords": ["data table", "list table", "datatable", "table data"],
+    "keywords": ["data table", "list table", "datatable", "table data", "responsive data table", "responsive list table", "folded table"],
     "license": "MIT",
     "authors": [
         {
