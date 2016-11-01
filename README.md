@@ -37,7 +37,7 @@ $db['tablename'] = 'people_dummy_data';
 ```
 
 ### Override
-You have to override the Rundiz\DataTable\DataTable by extends to sub class. Open the parent class or the API document to see more about methods and properties that are able to override.<br>
+You have to override the Rundiz\DataTable\DataTable by extends to sub class. Open the parent class or the [API document] (http://apidocs.rundiz.com/data-table/) to see more about methods and properties that are able to override.<br>
 Assume that the sub class file name is PeopleDummyDataTable.php.
 
 ```php
