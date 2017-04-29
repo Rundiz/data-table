@@ -3,7 +3,7 @@
 
 namespace Rundiz\DataTable\Tests;
 
-class ListTableTest extends \PHPUnit_Framework_TestCase
+class ListTableTest extends \PHPUnit\Framework\TestCase
 {
 
 
