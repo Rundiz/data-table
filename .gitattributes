@@ -44,6 +44,6 @@
 # End line ending normalization. ----------------------
 
 # Export ignore folders, files.
-tests/phpunit export-ignore
+tests export-ignore
 .gitattributes export-ignore
 phpunit.xml export-ignore
