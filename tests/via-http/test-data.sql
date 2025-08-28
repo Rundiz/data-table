@@ -1,22 +1,24 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.10
--- http://www.phpmyadmin.net
+-- version 5.2.2
+-- https://www.phpmyadmin.net/
 --
--- Host: 192.168.50.1
--- Generation Time: Oct 26, 2016 at 01:15 PM
--- Server version: 1.0.110
--- PHP Version: 5.6.25
+-- Host: localhost
+-- Generation Time: Aug 28, 2025 at 12:29 PM
+-- Server version: 11.3.2-MariaDB
+-- PHP Version: 8.3.14
 
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `test_dummy_data`
+-- Database: `github_rundiz_data-table`
 --
 
 -- --------------------------------------------------------
@@ -32,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `people_dummy_data` (
   `email` varchar(50) DEFAULT NULL,
   `gender` varchar(50) DEFAULT NULL,
   `ip_address` varchar(20) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
 
 --
 -- Dumping data for table `people_dummy_data`
@@ -1040,3 +1042,8 @@ INSERT INTO `people_dummy_data` (`id`, `first_name`, `last_name`, `email`, `gend
 (998, 'Diana', 'Duncan', 'dduncanrp@abc.net.au', 'Female', '69.92.16.255'),
 (999, 'Stephen', 'Sullivan', 'ssullivanrq@nature.com', 'Male', '239.16.230.142'),
 (1000, 'Virginia', 'Vasquez', 'vvasquezrr@addthis.com', 'Female', '208.255.169.117');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

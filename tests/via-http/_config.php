@@ -4,7 +4,7 @@
  */
 
 
-$db['dsn'] = 'mysql:dbname=test_dummy_data;host=localhost;port=3306;charset=UTF8';
+$db['dsn'] = 'mysql:dbname=github_rundiz_data-table;host=localhost;port=3306;charset=UTF8';
 $db['username'] = 'user';
 $db['password'] = 'pass';
 $db['options'] = [

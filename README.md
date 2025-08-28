@@ -22,7 +22,7 @@ if (!class_exists('\\Rundiz\\Pagination\\Pagination')) {
 }
 ```
 
-Import mysql_db_test_dummy_data.sql to MySQL or MariaDB (for test only).
+Import test-data.sql to MySQL or MariaDB (for test only).
 
 ### Configuration
 You have to provide db configuration to the class to read, update, delete the data.
