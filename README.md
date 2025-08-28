@@ -2,7 +2,6 @@
 
 Data table class for generate table with header, footer, data list, bulk actions, pagination. 
 This repository use the idea of WordPress's list table class to generate data table easily and supported responsive table. 
-Tested on PHP 8.4.
 
 [![Latest Stable Version](https://poser.pugx.org/rundiz/data-table/v/stable)](https://packagist.org/packages/rundiz/data-table)
 [![License](https://poser.pugx.org/rundiz/data-table/license)](https://packagist.org/packages/rundiz/data-table)
