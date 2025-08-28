@@ -8,6 +8,8 @@ Tested on PHP 8.4.
 [![License](https://poser.pugx.org/rundiz/data-table/license)](https://packagist.org/packages/rundiz/data-table)
 [![Total Downloads](https://poser.pugx.org/rundiz/data-table/downloads)](https://packagist.org/packages/rundiz/data-table)
 
+Tested up to PHP 8.4.
+
 ## Example
 
 ### Install
