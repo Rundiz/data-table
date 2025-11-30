@@ -10,13 +10,13 @@ class DBTest extends \PHPUnit\Framework\TestCase
     protected $db_config;
 
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->db_config = require dirname(__DIR__) . '/via-http/_config.php';
     }// setUp
 
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $this->db_config = null;
     }// tearDown

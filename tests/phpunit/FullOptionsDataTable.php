@@ -6,6 +6,9 @@
  */
 
 
+namespace Rundiz\DataTable\Tests;
+
+
 /**
  * Default values for list data table.<br>
  * This class copied from via-http/test-full-options/PeopleDummyDataTable.php file.

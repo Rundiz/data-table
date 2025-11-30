@@ -7,7 +7,7 @@ This repository use the idea of WordPress's list table class to generate data ta
 [![License](https://poser.pugx.org/rundiz/data-table/license)](https://packagist.org/packages/rundiz/data-table)
 [![Total Downloads](https://poser.pugx.org/rundiz/data-table/downloads)](https://packagist.org/packages/rundiz/data-table)
 
-Tested up to PHP 8.4.
+Tested up to PHP 8.5.
 
 ## Example
 
